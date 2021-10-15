@@ -1,7 +1,7 @@
 @import '../variables/_main';
 @include resetStyles;
 
-@media (min-width:300px){
+@media (max-width: 900px){
 
   .container-navegacion{
     display: flex;
@@ -296,7 +296,7 @@
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .container-navegacion{
     display: flex;
     flex-direction: row;
