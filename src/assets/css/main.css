@@ -230,7 +230,7 @@ main {
       .container-navegacion .hamburguesa button {
         background-color: #353A40 !important; }
       .container-navegacion .hamburguesa i {
-        font-size: 30px; }
+        font-size: 80px; }
     .container-navegacion ul {
       display: none; }
     .container-navegacion .logo {
@@ -240,9 +240,9 @@ main {
       align-items: center;
       align-content: center; }
       .container-navegacion .logo img {
-        width: 100px; }
+        width: 300px; }
       .container-navegacion .logo h1 {
-        font-size: 20px;
+        font-size: 40px;
         color: white; }
   .container-navegacion li .disable {
     color: #62774b; }
@@ -271,18 +271,22 @@ main {
       text-align: start; }
       header .todo h1 {
         color: white;
-        text-align: start; }
+        text-align: start;
+        font-size: 70px; }
       header .todo p {
         color: white;
-        text-align: start; }
+        text-align: start;
+        font-size: 30px; }
       header .todo .botones {
         text-align: start; }
         header .todo .botones button:first-child {
           background: transparent;
-          border: 1px solid white; }
+          border: 1px solid white;
+          font-size: 30px; }
         header .todo .botones button:last-child {
           background-color: #97C745;
-          border: 1px solid white; }
+          border: 1px solid white;
+          font-size: 30px; }
   .card {
     display: flex;
     padding: 2rem;
@@ -293,16 +297,33 @@ main {
     .card .tarjetas {
       display: flex;
       width: 80%;
-      justify-content: center; }
+      justify-content: center;
+      flex-direction: column; }
+      .card .tarjetas .centrando {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; }
+        .card .tarjetas .centrando .col {
+          width: 100%; }
+          .card .tarjetas .centrando .col .card-body {
+            width: 80%; }
+        .card .tarjetas .centrando img {
+          width: 500px; }
     .card .titulos p {
       color: #6a7070;
-      font-size: 15px; }
+      font-size: 30px; }
     .card .titulos h1 {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 70px; }
     .card .card-body {
       display: flex;
       text-align: start;
       flex-direction: column; }
+      .card .card-body h5 {
+        font-size: 50px; }
+      .card .card-body P {
+        font-size: 30px; }
       .card .card-body .tecnologias {
         margin-bottom: 10px; }
         .card .card-body .tecnologias span:first-child {
@@ -311,7 +332,8 @@ main {
           border-radius: 10px;
           padding-right: 5px;
           padding-left: 5px;
-          font-weight: 700; }
+          font-weight: 700;
+          font-size: 30px; }
         .card .card-body .tecnologias span:last-child {
           background-color: #1F98A9;
           border: 1px solid #1F98A9;
@@ -319,7 +341,8 @@ main {
           padding-right: 5px;
           padding-left: 5px;
           font-weight: 700;
-          color: white; }
+          color: white;
+          font-size: 30px; }
       .card .card-body .unico {
         margin-bottom: 10px; }
         .card .card-body .unico span:first-child {
@@ -329,7 +352,8 @@ main {
           padding-right: 5px;
           padding-left: 5px;
           font-weight: 700;
-          color: white; }
+          color: white;
+          font-size: 30px; }
         .card .card-body .unico span:last-child {
           background-color: #E16F78;
           border: 1px solid #E16F78;
@@ -337,7 +361,8 @@ main {
           padding-right: 5px;
           padding-left: 5px;
           font-weight: 700;
-          color: white; }
+          color: white;
+          font-size: 30px; }
   .galeria {
     display: flex;
     flex-direction: column;
