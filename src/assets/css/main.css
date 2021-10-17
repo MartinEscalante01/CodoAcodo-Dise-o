@@ -231,6 +231,8 @@ main {
         background-color: #353A40 !important; }
       .container-navegacion .hamburguesa i {
         font-size: 80px; }
+      .container-navegacion .hamburguesa a {
+        font-size: 30px; }
     .container-navegacion ul {
       display: none; }
     .container-navegacion .logo {
