@@ -421,11 +421,11 @@ main {
         font-size: 40px;
         height: 80px; }
     .formulario textarea {
-      font-size: 40px; }
+      font-size: 60px; }
     .formulario span {
-      font-size: 30px; }
+      font-size: 40px; }
     .formulario button {
-      font-size: 30px; }
+      font-size: 50px; }
   footer {
     display: flex;
     justify-content: center;
@@ -449,4 +449,4 @@ main {
       flex-direction: column; }
       footer ul .footer {
         color: white;
-        font-size: 20px; } }
+        font-size: 45px; } }
