@@ -385,7 +385,7 @@ main {
           font-size: 30px; }
         .galeria .info .info1 button {
           background: transparent;
-          font-size: 0px; }
+          font-size: 30px; }
   .formulario {
     display: flex;
     justify-content: center;
@@ -398,9 +398,9 @@ main {
       text-align: center;
       flex-direction: column; }
       .formulario .formulario-titulos p {
-        font-size: 30px; }
+        font-size: 40px; }
       .formulario .formulario-titulos h1 {
-        font-size: 50px; }
+        font-size: 70px; }
     .formulario span {
       font-weight: 200;
       color: #555252;
@@ -411,8 +411,21 @@ main {
       background-color: #98C83C;
       color: white;
       border: 1px solid #98C83C; }
-    .formulario .form .col {
-      width: 300px; }
+    .formulario .form {
+      padding: 1rem;
+      margin-bottom: 40px; }
+      .formulario .form .col {
+        width: 300px;
+        margin-bottom: 30px; }
+      .formulario .form input {
+        font-size: 40px;
+        height: 80px; }
+    .formulario textarea {
+      font-size: 40px; }
+    .formulario span {
+      font-size: 30px; }
+    .formulario button {
+      font-size: 30px; }
   footer {
     display: flex;
     justify-content: center;
@@ -431,6 +444,9 @@ main {
     justify-content: center;
     align-items: center; }
     footer ul {
-      padding: 2rem; }
+      padding: 2rem;
+      display: flex;
+      flex-direction: column; }
       footer ul .footer {
-        color: white; } }
+        color: white;
+        font-size: 20px; } }
