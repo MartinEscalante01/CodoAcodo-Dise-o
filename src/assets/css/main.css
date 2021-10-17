@@ -377,11 +377,15 @@ main {
       .galeria .info .info1 {
         width: 100%;
         background-color: #353A40;
-        color: white; }
+        color: white;
+        padding: 1rem; }
         .galeria .info .info1 h1 {
+          font-size: 60px; }
+        .galeria .info .info1 p {
           font-size: 30px; }
         .galeria .info .info1 button {
-          background: transparent; }
+          background: transparent;
+          font-size: 0px; }
   .formulario {
     display: flex;
     justify-content: center;
@@ -393,6 +397,10 @@ main {
       align-items: center;
       text-align: center;
       flex-direction: column; }
+      .formulario .formulario-titulos p {
+        font-size: 30px; }
+      .formulario .formulario-titulos h1 {
+        font-size: 50px; }
     .formulario span {
       font-weight: 200;
       color: #555252;
@@ -403,6 +411,8 @@ main {
       background-color: #98C83C;
       color: white;
       border: 1px solid #98C83C; }
+    .formulario .form .col {
+      width: 300px; }
   footer {
     display: flex;
     justify-content: center;

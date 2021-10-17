@@ -533,12 +533,18 @@
             width: 100%;
             background-color: #353A40;
             color: white;
+            padding: 1rem;
             
             h1{
+              font-size: 60px;
+              
+            }
+            p{
               font-size: 30px;
             }
             button{
               background: transparent;
+              font-size: 0px;
       
             }
           }
@@ -558,6 +564,13 @@
             align-items: center;
             text-align: center;
             flex-direction: column;
+
+            p{
+              font-size: 30px;
+            }
+            h1{
+              font-size: 50px;
+            }
           }
           span{
             font-weight: 200;
@@ -571,6 +584,12 @@
             background-color: #98C83C;
             color: white;
             border: 1px solid #98C83C;
+          }
+
+          .form{
+            .col{
+              width: 300px;
+            }
           }
         }
       
