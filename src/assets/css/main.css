@@ -254,7 +254,7 @@ main {
     color: white; }
   header {
     display: flex;
-    background-image: url("/imagenes/ba1.jpg");
+    background-image: url("../ba1.jpg");
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -267,28 +267,31 @@ main {
     header .todo {
       display: flex;
       flex-direction: column;
-      width: 60%;
+      width: 70%;
       justify-content: center;
       margin: 0%;
       text-align: start; }
       header .todo h1 {
         color: white;
         text-align: start;
-        font-size: 70px; }
+        font-size: 100px; }
       header .todo p {
         color: white;
         text-align: start;
-        font-size: 30px; }
+        font-size: 40px; }
       header .todo .botones {
-        text-align: start; }
+        text-align: start;
+        display: flex; }
         header .todo .botones button:first-child {
           background: transparent;
           border: 1px solid white;
-          font-size: 30px; }
+          font-size: 40px;
+          margin: 6px; }
         header .todo .botones button:last-child {
           background-color: #97C745;
           border: 1px solid white;
-          font-size: 30px; }
+          font-size: 40px;
+          margin: 6px; }
   .card {
     display: flex;
     padding: 2rem;
